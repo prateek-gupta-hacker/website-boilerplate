@@ -11,7 +11,25 @@ const routes: Routes = [
     path: '',
     redirectTo: '/home/home-page',
     pathMatch: 'full'
-  }
+  },
+  // {
+  //   path: '**', component: HomePageComponent
+  // }
+
+  // {
+  //   path: '**',
+  //   redirectTo: '/home/home-page',
+  //   pathMatch: 'full'
+  // },
+  // {
+  //   path: 'home',
+  //   component: HomePageComponent
+  // },
+  // {
+  //   path: '',
+  //   redirectTo: '/home',
+  //   pathMatch: 'full'
+  // }
 ];
 
 @NgModule({
